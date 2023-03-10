@@ -1,0 +1,15 @@
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.csproj.AssemblyReference.cache
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.AssemblyInfoInputs.cache
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.AssemblyInfo.cs
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.csproj.CoreCompileInputs.cache
+D:\VS\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputation.exe
+D:\VS\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputation.deps.json
+D:\VS\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputation.runtimeconfig.json
+D:\VS\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputation.dll
+D:\VS\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputation.pdb
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.dll
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\refint\EmployeeWageComputation.dll
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.pdb
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputation.genruntimeconfig.cache
+D:\VS\EmployeeWageComputation\obj\Debug\net6.0\ref\EmployeeWageComputation.dll

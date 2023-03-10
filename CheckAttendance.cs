@@ -15,12 +15,17 @@ namespace EmployeeWageComputation
         public static void Attendance()
         {
             Random random = new Random();
-            int IsEmployeePresent=random.Next(2);
+            int IsEmployeePresent=random.Next(3);
             
-            if (IsEmployeePresent == 0)
+            if (IsEmployeePresent == 1)
             {
-                Console.WriteLine("Employee is present");
+                Console.WriteLine("Employee is present Full_time");
                 empHrs = 8;
+            }
+            else if(IsEmployeePresent==2)
+            {
+                Console.WriteLine("Employee is present Part_time");
+                empHrs = 4;
             }
             else
             {
