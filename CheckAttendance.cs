@@ -12,9 +12,12 @@ namespace EmployeeWageComputation
         public static int empHrs = 0;
         public static int empWage = 0;
         public static int monthlyWage=0;
-        
+        public static int totalHrs = 0;
+
+  //Using wagesUsingSwitchCase function to find wages according to working hours
         public static void wagesUsingSwitchCase()
         {
+ //for calculating wages for 20 days
             for (int i = 0; i < 20; i++)
             {
 
@@ -44,13 +47,17 @@ namespace EmployeeWageComputation
 
                         }
                 }
+
                 empWage = empHrs * rate_per_hr;
                 Console.WriteLine($"The Employee Wage for day {i+1} is :{empWage}\n ");
+                totalHrs += empHrs;
+                if (totalHrs >= 100) { break; }
                 monthlyWage += empWage;
+
 
             }
 
-            
+            Console.WriteLine("The total working hours for the month is : " + totalHrs);
             Console.WriteLine("\nThe Employee Wage for Total Month of 20 days is : " +monthlyWage);
 
         }
