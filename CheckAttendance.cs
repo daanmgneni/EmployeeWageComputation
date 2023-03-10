@@ -12,25 +12,32 @@ namespace EmployeeWageComputation
         public static int empHrs = 0;
         public static int empWage = 0;
         
-        public static void Attendance()
+        public static void wagesUsingSwitchCase()
         {
             Random random = new Random();
             int IsEmployeePresent=random.Next(3);
             
-            if (IsEmployeePresent == 1)
+            switch (IsEmployeePresent)
             {
-                Console.WriteLine("Employee is present Full_time");
-                empHrs = 8;
-            }
-            else if(IsEmployeePresent==2)
-            {
-                Console.WriteLine("Employee is present Part_time");
-                empHrs = 4;
-            }
-            else
-            {
-                Console.WriteLine("Employee is absent");
-                empHrs = 0;
+                case 0:
+                    {
+                        empHrs = 0;
+                        Console.WriteLine("Employee is absent");
+                        break;
+                    }
+
+                case 1:
+                    {
+                        empHrs = 8;
+                        Console.WriteLine("Employee is present Full Time");
+                        break;
+                    }
+                case 2:
+                    {
+                        empHrs = 4;
+                        Console.WriteLine("Employee is present Part Time");
+                        break;
+                    }
             }
 
             empWage = empHrs * rate_per_hr;
